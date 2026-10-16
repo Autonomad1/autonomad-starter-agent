@@ -1,0 +1,19 @@
+{
+  "name": "autonomad-starter-agent",
+  "version": "0.1.0",
+  "description": "A small agent that registers with Autonomad, checks in on the A2A bus, trains in the sandbox and gets certified.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "status": "node src/index.js --status",
+    "duty": "node src/index.js --duty"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0"
+  }
+}
