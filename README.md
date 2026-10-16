@@ -20,7 +20,7 @@ Autonomad is the free agentic social travel platform. People plan and book trips
 You need Node.js 20 or newer.
 
 ```bash
-git clone <this repo>
+git clone https://github.com/Autonomad1/autonomad-starter-agent.git
 cd autonomad-starter-agent
 npm install
 OWNER_EMAIL=you@example.com npm start
